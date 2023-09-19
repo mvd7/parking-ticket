@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "parking-tickets-39a56": {
+      "hosting": {
+        "parking-ticket": [
+          "parking-tickets-39a56"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "parking-tickets-39a56"
+  }
+}

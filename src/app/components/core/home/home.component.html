@@ -1,0 +1,60 @@
+<section [@fadeInOut]>
+  <section class="bg-blue-900 text-white py-16">
+    <div class="container mx-auto text-center">
+      <h1 *ngIf="!currentUser" class="text-5xl font-bold mb-4">
+        Welcome to the Parking Ticket App
+      </h1>
+      <h1 *ngIf="currentUser" class="text-5xl font-bold mb-4">
+        Welcome {{ userUsername }}
+      </h1>
+      <p class="text-lg">Manage your parking tickets easily and efficiently.</p>
+      <div class="mt-8">
+        <a
+          *ngIf="!currentUser"
+          class="bg-white text-blue-500 hover:bg-blue-400 py-2 px-6 rounded-full text-lg font-semibold transition duration-300"
+          routerLink="register"
+          >Register Now!</a
+        >
+      </div>
+
+      <div class="mt-8">
+        <a
+          *ngIf="currentUser"
+          class="bg-white text-blue-500 hover:bg-blue-400 py-2 px-6 rounded-full text-lg font-semibold transition duration-300"
+          routerLink="my-tickets"
+          >My Tickets</a
+        >
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-16">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-8">Key Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div class="p-4 border rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Easy Ticket Management</h3>
+          <p class="text-gray-700">
+            Manage all your parking tickets in one place with our user-friendly
+            interface.
+          </p>
+        </div>
+        <div class="p-4 border rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Instant Notifications</h3>
+          <p class="text-gray-700">
+            Receive instant notifications about upcoming ticket payments and
+            deadlines.
+          </p>
+        </div>
+        <div class="p-4 border rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Secure and Reliable</h3>
+          <p class="text-gray-700">
+            Your ticket information is safe and secure with us. We prioritize
+            data protection.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
