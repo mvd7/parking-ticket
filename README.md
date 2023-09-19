@@ -1,6 +1,7 @@
 # About Parking Tickets App
 
 The Parking Tickets App is a user-friendly platform designed to help you manage and track your parking tickets efficiently.
+https://mvd7.github.io/parking-ticket/
 
 ## Technologies Used
 
@@ -11,7 +12,6 @@ This application is developed using:
 - Tailwind CSS
 
 
-## https://mvd7.github.io/parking-ticket/
 ## Screenshots
 
 ![Parking1](https://github.com/mvd7/parking-ticket/assets/118620242/bd8669d2-3609-4c49-b456-914976582bf4)
