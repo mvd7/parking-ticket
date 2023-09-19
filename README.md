@@ -1,6 +1,6 @@
 # About Parking Tickets App
 
-The Parking Tickets App is a user-friendly platform designed to help you manage and track your parking tickets efficiently. Our mission is to simplify the process of handling parking fines and deadlines, providing you with instant notifications and secure data protection.
+The Parking Tickets App is a user-friendly platform designed to help you manage and track your parking tickets efficiently.
 
 ## Technologies Used
 
