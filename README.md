@@ -18,3 +18,6 @@ To get started with the Parking Tickets App:
 
    ```shell
    git clone https://github.com/your-username/parking-tickets-app.git
+
+npm install
+ng serve
